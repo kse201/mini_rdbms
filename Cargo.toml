@@ -1,0 +1,13 @@
+[package]
+name = "mini_rdms"
+version = "0.1.0"
+authors = ["kse201 <kse.201@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.24"
+
+[dev-dependencies]
+tempfile = "3.2.0"
